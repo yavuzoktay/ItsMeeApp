@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Its Mee App</string>
+
+
+    <string name="its_mee_contact">ItsMee Contact</string>
+    <string name="phone_contact">Phone Contact</string>
+
+</resources>

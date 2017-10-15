@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yavuzoktay.itsmeeapp.MainActivity"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <Button
+                android:background="@drawable/my_button"
+                android:id="@+id/its_me_contact"
+                android:text="@string/its_mee_contact"
+                android:textColor="@color/its_me_contact"
+                android:layout_gravity="center"
+                android:layout_weight="1"/>
+
+            <Button
+                android:background="@drawable/my_button"
+                android:id="@+id/phone_contact"
+                android:text="@string/phone_contact"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/phone_contact"
+                android:layout_marginLeft="5dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>
